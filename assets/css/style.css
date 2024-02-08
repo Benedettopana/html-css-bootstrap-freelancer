@@ -1,6 +1,8 @@
 :root{
   --bg-header: #2C3E50;
   --container-small: #1ABC9C;
+  --bg-footer-top: #3A546D;
+  --bg-footer-bot: #2C3E50;
 }
 
 [class^="container"],
@@ -27,4 +29,21 @@ main .about{
 main .container-small{
   margin: 0 auto;
   width: 75%;
+}
+
+.btn-send{
+  background-color: var(--container-small);
+}
+
+footer .top-footer{
+  background-color: var(--bg-footer-top);
+}
+
+footer .bot-footer{
+  background-color: var(--bg-footer-bot);
+  height: 110px;
+}
+
+.credit{
+  color: var(--container-small);
 }
