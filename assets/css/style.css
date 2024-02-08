@@ -5,11 +5,11 @@
   --bg-footer-bot: #2C3E50;
 }
 
-[class^="container"],
+/* [class^="container"],
 .debug{
   background-color: rgba(173, 216, 230, 0.3);
   border: 1px solid rgba(0, 0, 0, 0.5);
-}
+} */
 
 
 header{
@@ -33,6 +33,10 @@ nav ul li a{
   text-decoration: none;
 }
 
+main.marg{
+  margin-top: 90px;
+}
+
 main .start-boot,
 main .about{
   background-color: var(--container-small);
@@ -49,6 +53,7 @@ main .container-small{
 
 footer .top-footer{
   background-color: var(--bg-footer-top);
+  /* height: 230px; */
 }
 
 footer .bot-footer{

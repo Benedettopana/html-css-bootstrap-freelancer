@@ -15,7 +15,7 @@
   <title>Bootstrap Freelancer</title>
 </head>
 <body>
-  <header>
+  <header class="fixed-top">
     <div class="container-md">
       <!-- menu -->
       <div class="row h-100 text-white align-items-center ">
@@ -46,11 +46,16 @@
     </div>
   </header>
 
-  <main>
+  <main class="marg">
+    <!-- TODO: add div -->
     <!-- START -->
     <section class="start-boot">
       <div class="container-small text-white text-center debug">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. In debitis ex quas reiciendis ducimus. Veritatis facere nesciunt aut iusto modi ipsa tempora natus ab laborum? Soluta laudantium officia aut deleniti!
+        <div class="photo d-flex justify-content-center ">
+          <img src="" alt="">
+        </div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique magnam minus minima nostrum eveniet fugiat laboriosam, aspernatur facere quisquam, expedita odit. Culpa reprehenderit minima tempora rerum odit, iusto excepturi deserunt.
+
       </div>
     </section>
     <!-- /START -->
@@ -164,29 +169,49 @@
 
   <footer>
     <!-- TOP -->
-    <div class="top-footer">
-      <div class="container-md debug">
-        <div class="text-center text-white">
-          <h5 class="text-uppercase ">Location</h5>
-          <h5 class="">2215 John Daniel Drive Clark, MO 54243</h5>
-          <h5 class="text-uppercase mt-5 ">Around the web</h5>
-          <div class="footer-icon mb-5">
-            icon
-            icon
-            icon
-            icon
+    <div class="top-footer p-5">
+      <div class="container-md text-white">
+
+        <div class="row justify-content-between justify-content-center  row-cols-1 row-cols-md-3">
+          <!-- sinistra  -->
+          <div class="col">
+            <div class="text-center">
+              <h5 class="text-uppercase ">Location</h5>
+              <h5 class="">2215 John Daniel Drive Clark, MO 54243</h5>
+            </div>
           </div>
 
-          <h5 class="text-uppercase ">about freelancer</h5>
-          <p class="mt-2 mb-5 ">Freelance is a free to use, open source Bootstrap theme created by <span class="credit">Start Bootstrap</span></p>
+          <!-- centro -->
+          <div class="col">
+            <div class="text-center m-sm-5 m-md-0">
+              <h5 class="text-uppercase">Around the web</h5>
+              <div class="footer-icon mb-5">
+                icon
+                icon
+                icon
+                icon
+              </div>
+            </div>
+          </div>
+
+          <!-- destra -->
+          <div class="col">
+            <div class="text-center">
+              <h5 class="text-uppercase ">about freelancer</h5>
+              <p class="p-4 m-0">
+                Freelance is a free to use, open source Bootstrap theme created by  <span class="credit">Start Bootstrap</span>
+              </p>
+            </div>
+          </div>
         </div>
+
       </div>
     </div>
     <!-- /TOP -->
 
     <!-- BOT -->
-    <div class="bot-footer">
-      <div class="p-4   text-center text-white ">
+    <div class="bot-footer m-0">
+      <div class="p-4 text-center text-white ">
         <p class=" ">Copyright &copy; Your Website 2019</p>
       </div>
     </div>
