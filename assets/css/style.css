@@ -58,7 +58,7 @@ footer .top-footer{
 
 footer .bot-footer{
   background-color: var(--bg-footer-bot);
-  height: 110px;
+  /* height: 110px; */
 }
 
 .credit{
