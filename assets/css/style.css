@@ -72,12 +72,36 @@ footer .bot-footer{
   font-size: 1.15rem;
 }
 
-.line{
-  width: 100%;
-  height: 5px;
-  border: 3px solid white;
-}
 
 .credit{
   color: var(--container-small);
+}
+
+.ms_star:before,
+.ms_star:after {
+  content: '';
+  display: inline-block;
+  width: 15%;
+  height: 4px;
+  border-radius:2px;
+  background-color: white;
+  margin: 0 20px;
+}
+
+.portfolio .ms_star:before,
+.portfolio .ms_star:after,
+.contact .ms_star:before,
+.contact .ms_star:after{
+  background-color: #2C3E50;
+}
+
+.portfolio .ms_star:before,
+.portfolio .ms_star:after{
+  width: 12%;
+}
+
+
+.ms_star i {
+  font-size: 30px;
+  vertical-align: middle;
 }
