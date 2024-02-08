@@ -21,6 +21,18 @@ header .container-md{
   height: 100%;
 }
 
+nav ul{
+  list-style: none;
+}
+
+nav ul li{
+  list-style: none;
+}
+
+nav ul li a{
+  text-decoration: none;
+}
+
 main .start-boot,
 main .about{
   background-color: var(--container-small);
