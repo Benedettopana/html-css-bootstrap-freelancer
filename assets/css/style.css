@@ -6,11 +6,11 @@
   --icon-grey: #888888;
 }
 
-[class^="container"],
+/* [class^="container"],
 .debug{
   background-color: rgba(173, 216, 230, 0.3);
   border: 1px solid rgba(0, 0, 0, 0.5);
-}
+} */
 
 
 header{
