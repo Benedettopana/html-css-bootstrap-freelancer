@@ -93,15 +93,26 @@ footer .bot-footer{
 .contact .ms_star:before,
 .contact .ms_star:after{
   background-color: #2C3E50;
+  /* width: 16%; */
 }
 
 .portfolio .ms_star:before,
 .portfolio .ms_star:after{
-  width: 12%;
+  width: 13%;
 }
-
 
 .ms_star i {
   font-size: 30px;
   vertical-align: middle;
+}
+
+.text-form{
+  color: #2C3E50;
+}
+
+/* PLACEHOLDER COLOR */
+
+.form-control input::placeholder,
+.form-control textarea::placeholder{
+  color: #2C3E50;
 }
