@@ -12,6 +12,14 @@
   border: 1px solid rgba(0, 0, 0, 0.5);
 } */
 
+img{
+  width: 100%;
+}
+
+h2{
+  font-size: 2.8rem;
+  font-weight: bold;
+}
 
 header{
   background-color: var(--bg-header);
@@ -50,6 +58,14 @@ main .about{
 main .container-small{
   margin: 0 auto;
   width: 75%;
+}
+
+.photo{
+  height: 18rem;
+}
+
+.port-card{
+  
 }
 
 .btn-send{
@@ -104,6 +120,7 @@ footer .bot-footer{
 .ms_star i {
   font-size: 30px;
   vertical-align: middle;
+  margin: 20px 0;
 }
 
 .text-form{
