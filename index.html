@@ -69,7 +69,7 @@
     <!-- /START -->
 
     <!-- PORTFOLIO -->
-    <section class="portfolio debug">
+    <section class="portfolio p-5">
       <div class="container-md">
         <div class="text-center ">
           <h2 class="text-uppercase mt-5">Portfolio</h2>
@@ -82,6 +82,7 @@
           </div>
         </div>
 
+        <!-- TODO: Fare hover -->
         <!--  card -->
         <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 mb-5">
           <div class="col mt-4 ">
@@ -121,7 +122,7 @@
     <!-- /PORTFOLIO -->
 
     <!-- About -->
-    <section class="about p-3">
+    <section class="about p-5">
       <div class="container-small text-white text-center debug">
 
         <h2 class="text-uppercase">About</h2>
@@ -142,9 +143,9 @@
         <!-- /TESTO -->
 
         <!-- bottone -->
-        <button type="button" class="btn btn-outline-light">
+        <button type="button" class="btn btn-outline-light mb-4">
           <i class="fa-solid fa-download"></i>
-          <span class="mx-2">Download</span>
+          <span class="mx-2 ">Download</span>
         </button>
         <!-- /bottone -->
       </div>
@@ -153,36 +154,27 @@
 
     <!-- contact -->
     <section class="contact">
-      <div class="container-small text-center debug p-5">
-        <h2 class="text-uppercase">Contact me</h2>
+      <div class="container-small p-5">
+        <h2 class="text-uppercase text-center">Contact me</h2>
         
-        <div class="ms_star">
+        <div class="ms_star text-center">
           <i class="fas fa-star text-form"></i>
         </div>
 
         <!-- TODO: fare piu' simile alla reference -->
         <!-- form -->
-        <form class="contact-form text-start">
-          <div class="mb-3">
-            <!-- <label for="" class="form-label">Nome</label> -->
-            <input type="text" class="form-control" id="" placeholder="Nome">
-          </div>
-          <div class="mb-3">
-            <!-- <label for="" class="form-label">Email Address</label> -->
-            <input type="email" class="form-control" id="" placeholder="Email Address">
-          </div>
-          <div class="mb-3">
-            <!-- <label for="" class="form-label">Phone number</label> -->
-            <input type="text" class="form-control" id="" placeholder="Phone number">
-          </div>
-          <div class="mb-3">
-            <!-- <label for="exampleFormControlTextarea1" class="form-label">Message</label> -->
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Message"></textarea>
-          </div>
 
-          <!-- btn -->
-          <button type="button" class="btn btn-success btn-send">Send</button>
-        </form>
+        <div class="py-5">
+          <form action="#" class="my_form">
+              <input type="text" class="form-control" placeholder="Name">
+              <input type="email" class="form-control" placeholder="Email Address">
+              <input type="text" class="form-control" placeholder="Phone Number">
+              <textarea class="form-control" placeholder="Message" id="floatingTextarea" rows="5"></textarea>
+              <button type="submit" class="my_button btn btn-success my-3 ">Send</button>
+              
+            </form>
+            
+        </div>
       </div>
     </section>
     <!-- /contact -->

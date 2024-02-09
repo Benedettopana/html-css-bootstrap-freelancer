@@ -127,9 +127,32 @@ footer .bot-footer{
   color: #2C3E50;
 }
 
-/* PLACEHOLDER COLOR */
-
-.form-control input::placeholder,
-.form-control textarea::placeholder{
-  color: #2C3E50;
+/* FORM */
+.my_form input,
+.my_form textarea {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-radius: 0;
 }
+
+.my_form input:focus,
+.my_form textarea:focus {
+  box-shadow: none;
+}
+
+.my_form input::placeholder,
+.my_form textarea::placeholder {
+  color: #2b3d4f;
+  
+} 
+
+.my_button {
+  background-color: #1abc9c;
+  border: none;
+}
+
+.my_button:hover {
+  background-color: #137964;
+}
+/* /FORM */
