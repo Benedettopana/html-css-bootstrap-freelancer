@@ -1,6 +1,7 @@
 :root{
   --bg-header: #2C3E50;
   --container-small: #1ABC9C;
+  --hidden-filter: rgba(28, 187, 155, 0.6);
   --bg-footer-top: #3A546D;
   --bg-footer-bot: #2C3E50;
   --icon-grey: #888888;
@@ -64,8 +65,33 @@ main .container-small{
   height: 18rem;
 }
 
+.filter-hidden{
+  display: none;
+  height: 100%;
+  width: 100%;
+  background-color: var(--hidden-filter);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4.5rem;
+  text-align: center;
+}
+
+.filter-hidden i{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .port-card{
-  
+  position: relative;
+  cursor: pointer;
+}
+
+.col:hover .filter-hidden{
+  display: block;
 }
 
 .btn-send{
